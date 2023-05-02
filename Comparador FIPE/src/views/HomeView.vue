@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import FipeForm from '../components/fipeForm.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <FipeForm />
   </main>
 </template>
