@@ -2,7 +2,7 @@
 
 ![Screenshot do projeto](./screenshot.png)
 
-Acesso: [Site](https://elc1090.github.io/project2-AndrizaCampanhol/)
+Acesso: [Site](https://project2-julio-cesar-87ol8jsbh-julio-cesar-pc.vercel.app/)
 
 
 #### Desenvolvedor(a)
