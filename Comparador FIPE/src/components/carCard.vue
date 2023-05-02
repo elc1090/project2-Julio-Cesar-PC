@@ -113,9 +113,6 @@
                         .get(`https://parallelum.com.br/fipe/api/v2/${tipoVeiculo}/${veiculoFipe.codeFipe}/years/${anoVeiculo}/history`)
                         .then(response => {
                             this.veiculoFinal = new Veiculo(tipoVeiculo, marcaVeiculo, modeloVeiculo, anoVeiculo, veiculoFipe.price, response.data)
-                            console.log(`----- ${this.nome} -----`)
-                            console.log(`https://parallelum.com.br/fipe/api/v2/${tipoVeiculo}/${veiculoFipe.codeFipe}/years/${anoVeiculo}/history`)
-                            console.log(this.veiculoFinal)
                             this.loading = false
                             this.loaded = true
                             let preco = this.veiculoFinal.precoVeiculo
